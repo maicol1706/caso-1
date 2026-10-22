@@ -1,0 +1,165 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Harold Lozano",
+      "correo": "haroldl@curso.edu",
+      "claveHash": "8589dca2050202173de18296cdbaba95:bd6e3e64697751ab04e321e6afc4218a30555a991855adaa086874388c81005c",
+      "rol": "BIBLIOTECARIO"
+    },
+    {
+      "id": 2,
+      "nombre": "Maicol Giraldo",
+      "correo": "maicol@curso.edu",
+      "claveHash": "5f09689388d0cff76c0ac78e09bcb989:b533caed7f86a4dec3b82f380ebf1eca65d8b30e282606bd0cd153165bc1cd18",
+      "rol": "ESTUDIANTE"
+    },
+    {
+      "id": 3,
+      "nombre": "Alejandro Cardona",
+      "correo": "alejandroc@curso.edu",
+      "claveHash": "90fa8a9fb36f490660487dc4d18a99e2:eb833760dd6f4255ed7de2d8e478b4f7669cb089e64c1540990f87f108196a9c",
+      "rol": "ESTUDIANTE"
+    },
+    {
+      "id": 4,
+      "nombre": "Ximena Giraldo",
+      "correo": "ximena@curso.edu",
+      "claveHash": "1f1eda25ec9201829a573adb21ab67d7:1fabaf00e8765970b0211bfc99e2ce60c801b3e7558148454d15a987e1ecf5f6",
+      "rol": "ESTUDIANTE"
+    },
+    {
+      "id": 5,
+      "nombre": "Valentina Aristizabal",
+      "correo": "valentina@curso.edu",
+      "claveHash": "d6941ca908f21b81cf57367b33fa4f4d:78d39862dd1299875f89241fb4115df5028a84bcb0257e11821a5bbb1f9cbd5a",
+      "rol": "ESTUDIANTE"
+    }
+  ],
+  "libros": [
+    {
+      "id": 1,
+      "titulo": "Cien años de soledad",
+      "autor": "Gabriel García Márquez",
+      "categoria": "Novela",
+      "ejemplaresTotales": 2,
+      "ejemplaresDisponibles": 1
+    },
+    {
+      "id": 2,
+      "titulo": "El principito",
+      "autor": "Antoine de Saint-Exupéry",
+      "categoria": "Cuento",
+      "ejemplaresTotales": 1,
+      "ejemplaresDisponibles": 0
+    },
+    {
+      "id": 3,
+      "titulo": "El secreto",
+      "autor": "Rhonda Byrne",
+      "categoria": "General",
+      "ejemplaresTotales": 2,
+      "ejemplaresDisponibles": 0
+    },
+    {
+      "id": 4,
+      "titulo": "La divina comedia",
+      "autor": "Dante Alighieri",
+      "categoria": "General",
+      "ejemplaresTotales": 5,
+      "ejemplaresDisponibles": 2
+    }
+  ],
+  "prestamos": [
+    {
+      "id": 1,
+      "libroId": 1,
+      "usuarioId": 2,
+      "nombreEstudiante": "Maicol Giraldo",
+      "fechaPrestamo": "2026-10-15T00:26:04.407Z",
+      "fechaDevolucion": "2026-10-15T00:30:34.096Z",
+      "estado": "DEVUELTO"
+    },
+    {
+      "id": 2,
+      "libroId": 1,
+      "usuarioId": 4,
+      "nombreEstudiante": "Ximena Giraldo",
+      "fechaPrestamo": "2026-10-15T00:26:14.258Z",
+      "fechaDevolucion": "2026-10-15T00:30:54.587Z",
+      "estado": "DEVUELTO"
+    },
+    {
+      "id": 3,
+      "libroId": 2,
+      "usuarioId": 4,
+      "nombreEstudiante": "Ximena Giraldo",
+      "fechaPrestamo": "2026-10-15T00:30:59.067Z",
+      "fechaDevolucion": null,
+      "estado": "ACTIVO"
+    },
+    {
+      "id": 4,
+      "libroId": 1,
+      "usuarioId": 3,
+      "nombreEstudiante": "Alejandro Cardona",
+      "fechaPrestamo": "2026-10-15T00:31:23.078Z",
+      "fechaDevolucion": "2026-10-15T16:13:44.757Z",
+      "estado": "DEVUELTO"
+    },
+    {
+      "id": 5,
+      "libroId": 1,
+      "usuarioId": 5,
+      "nombreEstudiante": "Valentina Aristizabal",
+      "fechaPrestamo": "2026-10-15T00:31:41.527Z",
+      "fechaDevolucion": null,
+      "estado": "ACTIVO"
+    },
+    {
+      "id": 6,
+      "libroId": 4,
+      "usuarioId": 2,
+      "nombreEstudiante": "Maicol Giraldo",
+      "fechaPrestamo": "2026-10-15T00:45:27.847Z",
+      "fechaDevolucion": null,
+      "estado": "ACTIVO"
+    },
+    {
+      "id": 7,
+      "libroId": 3,
+      "usuarioId": 2,
+      "nombreEstudiante": "Maicol Giraldo",
+      "fechaPrestamo": "2026-10-15T00:45:36.667Z",
+      "fechaDevolucion": null,
+      "estado": "ACTIVO"
+    },
+    {
+      "id": 8,
+      "libroId": 4,
+      "usuarioId": 5,
+      "nombreEstudiante": "Valentina Aristizabal",
+      "fechaPrestamo": "2026-10-15T00:45:41.867Z",
+      "fechaDevolucion": null,
+      "estado": "ACTIVO"
+    },
+    {
+      "id": 9,
+      "libroId": 3,
+      "usuarioId": 3,
+      "nombreEstudiante": "Alejandro Cardona",
+      "fechaPrestamo": "2026-10-15T00:45:46.336Z",
+      "fechaDevolucion": null,
+      "estado": "ACTIVO"
+    },
+    {
+      "id": 10,
+      "libroId": 4,
+      "usuarioId": 3,
+      "nombreEstudiante": "Alejandro Cardona",
+      "fechaPrestamo": "2026-10-15T16:10:34.107Z",
+      "fechaDevolucion": null,
+      "estado": "ACTIVO"
+    }
+  ]
+}
